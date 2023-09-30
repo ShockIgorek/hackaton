@@ -1,6 +1,17 @@
 .App-header {
+    margin: 0 auto;
+    display:flex;
     text-align: center;
     max-width: 1920px;
     background-color: #fff;
     border: red solid 1px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.App-header_part {
+    border: red solid 1px;
+    width: 200;
+    height: 200;
+
 }
