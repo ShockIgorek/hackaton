@@ -2,8 +2,8 @@ import '../app-header/app-header.css';
 
 function AppHeader() {
     return (
-        <div className = "App-header">хэдар
-            <a href="#" className="App-header_part">лого</a>
+        <div className = "App-header">
+            <a href="#" className="logo"></a>
             <a href="#" className="App-header_part">о команде</a>
             <a href="#" className="App-header_part">о нас</a>
             <a href="#" className="App-header_part">блок вакансий</a>
