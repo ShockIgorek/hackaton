@@ -1,9 +1,17 @@
+li {
+    margin: 0;
+}
+p {
+    margin: 0;
+}
+
 .job {
     overflow: hidden;
     display: block;
-    background-color: blueviolet;
+    background-color: #00afaa;
     width: 100%;
-    height: 700px;
-    margin: 0 auto;
+    height: 600px;
+    margin: 0;
+    padding: 40px 0;
     
 }

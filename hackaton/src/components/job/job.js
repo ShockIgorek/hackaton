@@ -2,9 +2,13 @@ import '../job/job.css'
 import '../job/card.css'
 
 import React from 'react';
-import ReactDOM from 'react-dom';
-
+// import ReactDOM from 'react-dom';
 import InfiniteCarousel from 'react-leaf-carousel';
+
+import * as data from '../../api/vacancy.json'
+
+const word = JSON.parse(data);
+console.log(word);
 
 
 
@@ -15,28 +19,42 @@ const Job = () => (
             {
               breakpoint: 500,
               settings: {
-                slidesToShow: 2,
-                slidesToScroll: 2,
+                slidesToShow: 4,
+                slidesToScroll: 4,
               },
             },
             {
-              breakpoint: 768,
+              breakpoint: 500,
               settings: {
                 slidesToShow: 3,
                 slidesToScroll: 3,
               },
             },
           ]}
-            dots={true}
-            showSides={false}
-            sidesOpacity={0.5}
-            sideSize={0.1}
-            slidesToScroll={4}
-            slidesToShow={2}
             scrollOnDevice={true}
+            pauseOnHover={true}
+            autoCycle={true}
+            cycleInterval={10000}
+            animationDuration={400}
+            dots={false}
+            arrows={true}
+            showSides={false}
+            swipe={true}
+            sidesOpacity={0.8}
+            slidesSpacing={10}//отступ
+            sideSize={0.1}
+            slidesToScroll={1}
+            slidesToShow={4}
+            
         >
-        <div className="card">1</div>
-        <div className="card">2</div>
+        <div className="card">
+          <p className="Title">
+          Медицинская сестра кабинета гинеколога, медсестра функциональной диагностики
+          </p>
+        </div>
+        <div className="card">
+
+        </div>
         <div className="card">3</div>
         <div className="card">4</div>
         <div className="card">5</div>

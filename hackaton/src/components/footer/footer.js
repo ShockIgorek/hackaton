@@ -2,12 +2,19 @@ import '../footer/footer.css'
 
 function Footer() {
     return (
-    <div className="footer">
-        Мы профессионалы из разных областей — металлурги, 
-        ученые, ювелиры, технологи, инженеры, аналитики, 
-        программисты и многие другие. Наша команда распределена по 
-        всей России – мы эффективно работаем удаленно и в гибридном формате.
-    </div>
+    
+    <footer className="footer">
+        <div>
+            <p className="down__text">
+                2003 - 2023 © Федеральное государственное 
+                бюджетное учреждение
+                ФГБУ ФСНКЦ ФМБА России
+            </p>
+            <a className="down__link" href="https://www.skc-fmba.ru/media/uploads/policyofinformationsecurity.pdf" target="_blank">
+                Политика информационной безопасности персональных данных
+            </a>
+        </div>
+    </footer>
     )};
 
 export default Footer;
