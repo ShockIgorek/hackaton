@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/static/css/main.6d79d7d7.css",
+    "main.js": "/static/js/main.ac9bf7c5.js",
+    "static/media/doctora.jpg": "/static/media/doctora.b74851fa448d3f6fc0c0.jpg",
+    "static/media/logo+name.svg": "/static/media/logo+name.5e0780298dc0f3737a55.svg",
+    "index.html": "/index.html",
+    "main.6d79d7d7.css.map": "/static/css/main.6d79d7d7.css.map",
+    "main.ac9bf7c5.js.map": "/static/js/main.ac9bf7c5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6d79d7d7.css",
+    "static/js/main.ac9bf7c5.js"
+  ]
+}
