@@ -1,7 +1,8 @@
-import '../aboutTheTeam/style.css';
-function AboutTheTeam() {
+import '../footer/footer.css'
+
+function Footer() {
     return (
-    <div className="style">
+    <div className="footer">
         Мы профессионалы из разных областей — металлурги, 
         ученые, ювелиры, технологи, инженеры, аналитики, 
         программисты и многие другие. Наша команда распределена по 
@@ -9,4 +10,4 @@ function AboutTheTeam() {
     </div>
     )};
 
-export default AboutTheTeam;
+export default Footer;
